@@ -4,9 +4,9 @@ using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
-namespace Entidades
+namespace Entidades.Entidades
 {
-    public class Class1
+    public class Paciente
     {
     }
 }
