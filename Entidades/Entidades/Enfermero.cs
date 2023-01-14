@@ -6,8 +6,8 @@ using System.Threading.Tasks;
 
 namespace Entidades.Entidades
 {
-    public class Paciente:Persona
-    {
-        public string NroHistoriaClinica { get; set; }
-    }
+	public class Enfermero : Persona 
+	{
+		public string cuil { get; set; }
+	}
 }

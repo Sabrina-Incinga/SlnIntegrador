@@ -6,8 +6,13 @@ using System.Threading.Tasks;
 
 namespace Entidades.Entidades
 {
-    public class Paciente:Persona
+    public class Habitacion : Persona  
     {
-        public string NroHistoriaClinica { get; set; }
+        public int Id { get; set; }
+        public string Numero { get; set; }
+        public string Estado { get; set; }
+
+
+
     }
 }
