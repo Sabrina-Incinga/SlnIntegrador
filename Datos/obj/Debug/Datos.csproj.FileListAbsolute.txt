@@ -1,0 +1,9 @@
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\bin\Debug\Datos.dll
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\bin\Debug\Datos.pdb
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\bin\Debug\Entidades.dll
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\bin\Debug\Entidades.pdb
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\obj\Debug\Datos.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\obj\Debug\Datos.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\obj\Debug\Datos.csproj.CopyComplete
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\obj\Debug\Datos.dll
+C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Datos\obj\Debug\Datos.pdb
