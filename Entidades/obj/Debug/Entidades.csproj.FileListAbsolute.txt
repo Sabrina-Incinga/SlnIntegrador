@@ -4,3 +4,10 @@ C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Entidades\obj\Debug\Entidades
 C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Entidades\obj\Debug\Entidades.dll
 C:\Users\admin\Desktop\slnintegrador\SlnIntegrador\Entidades\obj\Debug\Entidades.pdb
+H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\bin\Debug\Entidades.dll.config
+H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\bin\Debug\Entidades.dll
+H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\bin\Debug\Entidades.pdb
+H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\obj\Debug\Entidades.dll
+H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\obj\Debug\Entidades.pdb

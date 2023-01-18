@@ -32,7 +32,7 @@ namespace Presentacion
             int cont = 0;
             foreach (var medico in AdmMedico.Listar())
             {
-                if (medico.Especialidad == "cirujano")
+                if (medico.Especialidad.ToLower() == "cirujano")
                 {
                     filtrarMedicos.Items.Add(medico.Nombre);
                     cont++;
@@ -57,6 +57,16 @@ namespace Presentacion
                     filtrarHabitaciones.Items.Add(habitacion.Estado);
                 }
             }
+        }
+
+        private void listaMedicos_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
+
+        private void filtrarMedicos_SelectedIndexChanged(object sender, EventArgs e)
+        {
+
         }
     }
 }

@@ -29,19 +29,15 @@
         private void InitializeComponent()
         {
             this.components = new System.ComponentModel.Container();
-            this.class1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             this.listaMedicos = new System.Windows.Forms.DataGridView();
             this.listaPacientes = new System.Windows.Forms.DataGridView();
             this.filtrarMedicos = new System.Windows.Forms.ListBox();
             this.filtrarHabitaciones = new System.Windows.Forms.ListBox();
-            ((System.ComponentModel.ISupportInitialize)(this.class1BindingSource)).BeginInit();
+            this.class1BindingSource = new System.Windows.Forms.BindingSource(this.components);
             ((System.ComponentModel.ISupportInitialize)(this.listaMedicos)).BeginInit();
             ((System.ComponentModel.ISupportInitialize)(this.listaPacientes)).BeginInit();
+            ((System.ComponentModel.ISupportInitialize)(this.class1BindingSource)).BeginInit();
             this.SuspendLayout();
-            // 
-            // class1BindingSource
-            // 
-            this.class1BindingSource.DataSource = typeof(Negocio.Class1);
             // 
             // listaMedicos
             // 
@@ -50,6 +46,7 @@
             this.listaMedicos.Name = "listaMedicos";
             this.listaMedicos.Size = new System.Drawing.Size(240, 150);
             this.listaMedicos.TabIndex = 0;
+            this.listaMedicos.CellContentClick += new System.Windows.Forms.DataGridViewCellEventHandler(this.listaMedicos_CellContentClick);
             // 
             // listaPacientes
             // 
@@ -66,6 +63,7 @@
             this.filtrarMedicos.Name = "filtrarMedicos";
             this.filtrarMedicos.Size = new System.Drawing.Size(120, 95);
             this.filtrarMedicos.TabIndex = 2;
+            this.filtrarMedicos.SelectedIndexChanged += new System.EventHandler(this.filtrarMedicos_SelectedIndexChanged);
             // 
             // filtrarHabitaciones
             // 
@@ -74,6 +72,10 @@
             this.filtrarHabitaciones.Name = "filtrarHabitaciones";
             this.filtrarHabitaciones.Size = new System.Drawing.Size(120, 95);
             this.filtrarHabitaciones.TabIndex = 3;
+            // 
+            // class1BindingSource
+            // 
+            this.class1BindingSource.DataSource = typeof(Negocio.Class1);
             // 
             // Form1
             // 
@@ -87,9 +89,9 @@
             this.Name = "Form1";
             this.Text = "Form1";
             this.Load += new System.EventHandler(this.Form1_Load);
-            ((System.ComponentModel.ISupportInitialize)(this.class1BindingSource)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listaMedicos)).EndInit();
             ((System.ComponentModel.ISupportInitialize)(this.listaPacientes)).EndInit();
+            ((System.ComponentModel.ISupportInitialize)(this.class1BindingSource)).EndInit();
             this.ResumeLayout(false);
 
         }

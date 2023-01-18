@@ -1,25 +1,19 @@
 ﻿using System;
 using System.Collections.Generic;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 using System.Linq;
 using System.Text;
 using System.Threading.Tasks;
 
 namespace Entidades.Entidades
 {
+    [Table("Medico")]
     public class Medico:Persona
     {
-        /*
-         Id
-        Nombre
-        Apellido
-        Domicilio
-        Telefono
-        Email
-        Especialidad
-        Matricula
-         */
-
+        [Column(TypeName = "varchar"), StringLength(100), Required]
         public string Especialidad { get; set; }
+        [Column(TypeName = "varchar"), StringLength(50), Required]
         public string Matricula { get; set; }
     }
 }
