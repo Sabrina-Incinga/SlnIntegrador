@@ -6,10 +6,10 @@ using System.Threading.Tasks;
 
 namespace Entidades.Entidades
 {
-    public class Habitacion : Persona  
+    public class Habitacion  
     {
         public int Id { get; set; }
-        public string Numero { get; set; }
+        public int Numero { get; set; }
         public string Estado { get; set; }
 
 

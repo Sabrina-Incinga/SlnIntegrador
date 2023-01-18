@@ -54,6 +54,9 @@
     </Compile>
     <Compile Include="Program.cs" />
     <Compile Include="Properties\AssemblyInfo.cs" />
+    <EmbeddedResource Include="Form1.resx">
+      <DependentUpon>Form1.cs</DependentUpon>
+    </EmbeddedResource>
     <EmbeddedResource Include="Properties\Resources.resx">
       <Generator>ResXFileCodeGenerator</Generator>
       <LastGenOutput>Resources.Designer.cs</LastGenOutput>
@@ -63,6 +66,17 @@
       <AutoGen>True</AutoGen>
       <DependentUpon>Resources.resx</DependentUpon>
     </Compile>
+    <None Include="Properties\DataSources\Entidades.Entidades.Clinica.datasource" />
+    <None Include="Properties\DataSources\Entidades.Entidades.Director.datasource" />
+    <None Include="Properties\DataSources\Entidades.Entidades.Enfermero.datasource" />
+    <None Include="Properties\DataSources\Entidades.Entidades.Habitacion.datasource" />
+    <None Include="Properties\DataSources\Entidades.Entidades.Medico.datasource" />
+    <None Include="Properties\DataSources\Entidades.Entidades.Paciente.datasource" />
+    <None Include="Properties\DataSources\Entidades.Persona.datasource" />
+    <None Include="Properties\DataSources\Negocio.AdmHabitacion.datasource" />
+    <None Include="Properties\DataSources\Negocio.AdmMedico.datasource" />
+    <None Include="Properties\DataSources\Negocio.AdmPaciente.datasource" />
+    <None Include="Properties\DataSources\Negocio.Class1.datasource" />
     <None Include="Properties\Settings.settings">
       <Generator>SettingsSingleFileGenerator</Generator>
       <LastGenOutput>Settings.Designer.cs</LastGenOutput>
@@ -77,6 +91,10 @@
     <None Include="App.config" />
   </ItemGroup>
   <ItemGroup>
+    <ProjectReference Include="..\Datos\Datos.csproj">
+      <Project>{e15c7546-bb86-426b-9cec-28887507505e}</Project>
+      <Name>Datos</Name>
+    </ProjectReference>
     <ProjectReference Include="..\Entidades\Entidades.csproj">
       <Project>{fca423fe-cddf-483d-a200-4babff6fcefa}</Project>
       <Name>Entidades</Name>
