@@ -15,5 +15,10 @@ namespace Entidades.Entidades
         public string especialidad { get; set; }
 		[Column(TypeName = "varchar"), StringLength(50), Required]
 		public string matricula { get; set; }
-	}
+
+        #region propiedades de navegacion
+        public Clinica Clinica { get; set; }
+        #endregion
+
+    }
 }
