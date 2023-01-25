@@ -9,7 +9,7 @@ namespace Datos
 {
     public class DacMedico
     {
-        private static DbIntegradorContext context = new DbIntegradorContext();
+        private static DbSlnIntegradorContext context = new DbSlnIntegradorContext();
         public List<Medico> ListarTodos()
         {
             return context.Medicos.ToList();

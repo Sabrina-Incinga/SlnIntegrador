@@ -2,9 +2,11 @@
   "ExpandedNodes": [
     "",
     "\\Datos",
+    "\\Entidades",
+    "\\Entidades\\Entidades",
     "\\Negocio",
     "\\Presentacion"
   ],
-  "SelectedNode": "\\Negocio\\AdmHabitacion.cs",
+  "SelectedNode": "\\Entidades\\Entidades\\Habitacion.cs",
   "PreviewInSolutionExplorer": false
 }

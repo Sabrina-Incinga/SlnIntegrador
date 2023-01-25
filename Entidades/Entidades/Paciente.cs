@@ -13,5 +13,12 @@ namespace Entidades.Entidades
     {
         [Column(TypeName = "varchar"), StringLength(500)]
         public string NroHistoriaClinica { get; set; }
+
+    #region propiedades de navegacion
+    public Medico Medico { get; set; }
+    #endregion
     }
+
+    
+
 }

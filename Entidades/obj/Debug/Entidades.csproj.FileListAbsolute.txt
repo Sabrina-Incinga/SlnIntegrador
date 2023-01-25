@@ -11,3 +11,15 @@ H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entida
 H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
 H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\obj\Debug\Entidades.dll
 H:\Sabrina\Accenture\ProgramaciónWebNetCoreGrupales\Clase4\SlnIntegrador\Entidades\obj\Debug\Entidades.pdb
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\bin\Debug\Entidades.dll.config
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\bin\Debug\Entidades.dll
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\bin\Debug\Entidades.pdb
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.AssemblyReference.cache
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.CoreCompileInputs.cache
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\obj\Debug\Entidades.dll
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\obj\Debug\Entidades.pdb
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\bin\Debug\EntityFramework.dll
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\bin\Debug\EntityFramework.SqlServer.dll
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\bin\Debug\EntityFramework.xml
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\bin\Debug\EntityFramework.SqlServer.xml
+C:\Users\admin\Desktop\sln\SlnIntegrador\Entidades\obj\Debug\Entidades.csproj.CopyComplete

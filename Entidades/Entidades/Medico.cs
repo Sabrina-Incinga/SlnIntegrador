@@ -15,5 +15,7 @@ namespace Entidades.Entidades
         public string Especialidad { get; set; }
         [Column(TypeName = "varchar"), StringLength(50), Required]
         public string Matricula { get; set; }
+
+        public List <Paciente> Pacientes { get; set; }
     }
 }

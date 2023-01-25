@@ -21,6 +21,15 @@ namespace Entidades.Entidades
         [Column(TypeName = "varchar"), StringLength(100)]
         public string Email { get; set; }
 
+        #region propiedades de navegacion
+        public List<Enfermero> Enfermeros { get; set; }
+        public List <Habitacion> Habitaciones { get; set; }
+        public List <Medico> Medicos { get; set; }
+        public List <Paciente> Pacientes { get; set; }
+        public Director Director { get; set; }
+        #endregion
+
+
 
 
     }
